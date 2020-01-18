@@ -1,0 +1,22 @@
+<div class="row">
+<div class="col-left"><app-filter></app-filter></div>
+<div class="col-right">
+<app-sort></app-sort>
+<div class="products">
+<div class="card" *ngFor="let product of products">
+  <img src="{{product.img_url}}" class="card-img" alt="{{product.name}}">
+  <div class="card-body">
+    <h5 class="card-title">{{product.name}}</h5>
+    <p class="card-text" *ngIf="product.price > 0">
+      <span class="offer-price" *ngIf="product.discount <= 0">{{product.price | currency : 'INR' : 'symbol' : '0.0-0'}}</span>
+      <span class="offer-price" *ngIf="product.discount > 0">{{product.price - ((product.price / 100) * product.discount) | currency : 'INR' : 'symbol' : '0.0-0'}}</span>
+      <span class="price" *ngIf="product.discount > 0">{{product.price}}</span>
+      <span class="discount" *ngIf="product.discount > 0">{{product.discount}}% Off</span>
+    </p>
+    <button class="btn" (click)="addToCart(product)">Buy</button>
+  </div>
+</div>
+</div>
+
+</div>
+</div>

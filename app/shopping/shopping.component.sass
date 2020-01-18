@@ -1,0 +1,76 @@
+.products
+	display: flex
+	flex-flow: wrap
+
+.card
+	position: relative
+	display: -ms-flexbox
+	display: flex
+	-ms-flex-direction: column
+	flex-direction: column
+	min-width: 0
+	word-wrap: break-word
+	background-color: #f0f0f0
+	width: 48%
+	margin: 1%
+	font-size: 14px
+	line-height: 18px
+	@media screen and (min-width:768px)
+		width: 190px
+		margin:  4px
+	@media screen and (min-width:1024px)
+		width: 19%
+		margin: .5%
+	@media screen and (min-width:1366px)
+		width: 19%
+		margin: .5%
+
+.card-img
+	border-top-left-radius: calc(.25rem - 1px)
+	border-top-right-radius: calc(.25rem - 1px)
+	-ms-flex-negative: 0
+	flex-shrink: 0
+	width: 100%
+	vertical-align: middle
+
+.card-body
+	-ms-flex: 1 1 auto
+	flex: 1 1 auto
+	min-height: 1px
+	padding: 10px
+
+.card-title
+	margin-bottom: 10px
+
+.card-text
+	margin-bottom: 10px
+	font-weight: bold
+
+
+.btn
+	color: #000
+	background-color: #ff9f00
+	display: block
+	text-decoration: none
+	text-align: center
+	padding: 8px 10px
+	border-radius: 20px
+	margin: 0 auto
+	width: 110px
+	font-weight: bold
+	border:  0
+	outline: none
+	cursor: pointer
+
+.offer-price
+	color: #000
+	margin: 0 10px 0 0
+
+.price
+	color: #878787
+	margin: 0 10px 0 0
+	text-decoration: line-through
+
+.discount
+	color: #388e3c
+	margin: 0 10px 0 0
