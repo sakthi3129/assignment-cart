@@ -1,0 +1,94 @@
+{"page":1,"total_results":3,"total_pages":1,"results":[{
+  "card": {
+    "name": "Citi Rewards Card",
+    "rating": 4.5,
+    "users": "2320 users"
+  },
+  "yearFee": {
+    "fee": 0,
+    "reduced": "Reduced to0If annual spends > 30,000"
+  },
+  "rewards": ["Apparel/department stores: 125 = 10x points", "Others: 125 = 1 point", "Cashback value: 1 point =  1"],
+  "joiningPerks": ["1,500 bonus points", "1,000 bonus points"]
+}, {
+  "card": {
+    "name": "IndusInd Bank Platinum Card",
+    "rating": 4.0,
+    "users": "467 users"
+  },
+  "yearFee": {
+    "fee": 0
+  },
+  "rewards": ["1.5 points/ 150 spent"],
+  "joiningPerks": ["No joining perks"],
+  "badge": ["100% Paperless Approval"]
+}, {
+  "card": {
+    "name": "IndusInd Bank Platinum Aura Edge Master Card",
+    "rating": 4.5,
+    "users": "827 users"
+  },
+  "yearFee": {
+    "fee": 0
+  },
+  "rewards": ["Department stores: Rs. 100 = 4 points", "Consumer durables/Electronics: Rs. 100 = 2 points",
+    "Dining/Books: Rs. 100 = 1 point", "Others: Rs. 100 = 0.5 points"
+  ],
+  "joiningPerks": ["No joining perks"],
+  "badge": ["100% Paperless Approval"]
+}]}
+
+
+
+
+
+// [{
+//   "card": {
+//     "name": "Citi Rewards Card",
+//     "rating": 4.5,
+//     "users": "2320 users"
+//   },
+//   "yearFee": {
+//     "fee": 0,
+//     "reduced": "Reduced to0If annual spends > 30,000"
+//   },
+//   "rewards": {
+//     "reward1": "Apparel/department stores: 125 = 10x points",
+//     "reward2": "Others: 125 = 1 point",
+//     "reward3": "Cashback value: 1 point =  1"
+//   },
+//   "joiningPerks": {
+//     "Perk1": "1,500 bonus points",
+//     "Perk2": "1,000 bonus points"
+//   }
+// }, {
+//   "card": {
+//     "name": "IndusInd Bank Platinum Card",
+//     "rating": 4.0,
+//     "users": "467 users"
+//   },
+//   "yearFee": {
+//     "fee": 0
+//   },
+//   "rewards": {
+//     "reward1": "1.5 points/ 150 spent"
+//   },
+//   "joiningPerks": {
+//     "Perk1": "No joining perks"
+//   },
+//   "badge": ["100% Paperless Approval"]
+// }, {
+//   "card": {
+//     "name": "IndusInd Bank Platinum Aura Edge Master Card",
+//     "rating": 4.5,
+//     "users": "827 users"
+//   },
+//   "yearFee": {
+//     "fee": 0
+//   },
+//   "rewards": ["Department stores: Rs. 100 = 4 points", "Consumer durables/Electronics: Rs. 100 = 2 points",
+//     "Dining/Books: Rs. 100 = 1 point", "Others: Rs. 100 = 0.5 points"
+//   ],
+//   "joiningPerks": ["No joining perks"],
+//   "badge": ["100% Paperless Approval"]
+// }]
